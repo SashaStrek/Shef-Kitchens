@@ -1,7 +1,3 @@
-new WOW({
-    animateClass: 'animate__animated',
-}).init();
-
 $('#menu-exit').hide();
 
 document.getElementById('burger').onclick = function () {
@@ -72,6 +68,11 @@ function validate_inputs2() {
 
 
 $(document).ready(function () {
+
+    new WOW({
+        animateClass: 'animate__animated',
+    }).init();
+
     $("#orderButton").click(function () {
         validate_inputs();
         if (!hasError) {
