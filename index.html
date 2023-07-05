@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/cdnjs.cloudflare.com_ajax_libs_animate.css_4.1.1_animate.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header class="header">
+    <section>
+        <div class="container header__container  wow animate__bounceInUp">
+            <div class="logo"><img class="logo__img" src="images/logo.png" alt="logo"></div>
+            <div class="burger" id="burger">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </div>
+            <nav class="menu" id="menu">
+                <div class="exit" id="menu-exit">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+                                c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+                                c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+                                L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+                                c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+                                c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+                                c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <ul class="menu__ul">
+                    <li class="menu__item"><a class="menu__a" href="#">Гарантии</a></li>
+                    <li class="menu__item"><a class="menu__a" href="#">Портфолио</a></li>
+                    <li class="menu__item"><a class="menu__a" href="#">Преимущества</a></li>
+                    <li class="menu__item"><a class="menu__a" href="#">Отзывы</a></li>
+                    <li class="menu__item"><a class="menu__a" href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section class="jumbotron container">
+        <h1>Изготавливаем элитные кухни немецкого качества</h1>
+        <div class="jumbotron__description">
+            <div class="key"><img class="key__img" src="images/key.png" alt="key"></div>
+            <p>«под ключ» по европейским стандартам и по индивидуальному дизайну</p>
+        </div>
+        <button class="btn wow animate__backInRight" id="calculateButton">Рассчитать стоимость</button>
+        <ul class="jumbotron__ul">
+            <li class="jumbotron__item"><a class="jumbotron__a" href="#">Гарантия 25 лет!</a></li>
+            <li class="jumbotron__item"><a class="jumbotron__a" href="#">Бесплатный замер</a></li>
+            <li class="jumbotron__item"><a class="jumbotron__a" href="#">Удаленный расчет</a></li>
+        </ul>
+    </section>
+    <div class="socials wow animate__backInLeft ">
+        <a href="#"><img src="images/facebook.png" alt="facebook"></a>
+        <a href="#"><img src="images/instagram.png" alt="instagram"></a>
+        <a href="#"><img src="images/vk.png" alt="vk"></a>
+    </div>
+</header>
+<div class="divider"></div>
+<main class="main">
+    <section class="guarantee">
+        <div class="container">
+            <div class="title">
+                <div class="segment"></div>
+                <h1><span>Мы гарантируем </span>нашим клиентам</h1>
+            </div>
+            <div class="guarantee__grid">
+                <div class="guarantee__item item1 wow animate__bounceInUp">
+                    <div class="item__number">1</div>
+                    <div class="item__description">
+                        <h2>Качество высокого уровня</h2>
+                        <p>Кухни производятся на фабрике, оснащенной современным итальянским оборудованием. Это значит,
+                            что Ваша кухня будет сделана с ювелирной точностью - все детали выполнены ровно по
+                            размеру.
+                        </p>
+                    </div>
+                </div>
+                <div class="guarantee__item item2 wow animate__bounceInUp">
+                    <div class="item__number">2</div>
+                    <div class="item__description">
+                        <h2>Гарантию надежности</h2>
+                        <p>Гарантия на кухонный гарнитур и ассесуары - 25 лет!
+                            Если за это время Вы обнаружите недостатки,<br>
+                            мы устраняем их за свой счет.
+                        </p>
+                    </div>
+                </div>
+                <div class="guarantee__item item3 wow animate__bounceInUp">
+                    <div class="item__number">3</div>
+                    <div class="item__description">
+                        <h2>Отсутствие скрытых комиссий</h2>
+                        <p>Мы сразу называем конечную цену за гарнитур - дополнительных расходов у Вас не будет. Вы
+                            платите
+                            только за изготовление. Дизайн-проект, выезд
+                            замерщика и дизайнера — это бесплатно.
+                        </p>
+                    </div>
+                </div>
+                <div class="guarantee__item item4 wow animate__bounceInUp">
+                    <div class="item__number">4</div>
+                    <div class="item__description">
+                        <h2>Твердые сроки</h2>
+                        <p>Вам не придется ждать новую кухню 2 месяца.
+                            Сроки изготовления гарнитура отражены<br>
+                            в нашем договоре.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="examples">
+        <div class="container">
+            <div class="title">
+                <div class="segment"></div>
+                <h1><span>Такие кухни мы реализовали </span>для наших клиентов</h1>
+            </div>
+            <p class="examples-p">Каждый наш проект — уникальный и неповторимый. За всю историю существования нашей
+                компании —
+                а это целых 11 лет — у нас еще не было ни одной похожей кухни. Ниже в нашем портфолио вы найдете
+                проекты, которыми мы очень гордимся.
+            </p>
+            <div class="carousel">
+                <div class="carousel__body">
+                    <div class="carousel__image">
+                        <img id="img1" class="disabled active"
+                             src="images/sovremennaya-belaya-kukhnya-s-derevom-foto-21.png" alt="kitchen">
+                        <img id="img2" class="disabled" src="images/poster1.jpg" alt="kitchen">
+                        <img id="img3" class="disabled" src="images/poster2.jpg" alt="kitchen">
+                    </div>
+                    <button type="button" class="carousel__right arrow right" id="btnRight"></button>
+                    <button type="button" class="carousel__left arrow left" id="btnLeft"></button>
+                    <div class="indicator">
+                        <div class="indicator__item indicator__item-on" id="indicator1"></div>
+                        <div class="indicator__item" id="indicator2"></div>
+                        <div class="indicator__item" id="indicator3"></div>
+                    </div>
+                </div>
+                <div class="carousel__description">
+                    <div class="carousel__number">№15</div>
+                    <h2>Кухня в скандинавском стиле</h2>
+                    <div class="carousel__parameters">
+                        <div class="parameters__name">
+                            Материал:<br>
+                            Планировка:<br>
+                            Скинали:<br>
+                            Столешница:<br>
+                            Размер кухни:
+                        </div>
+                        <div class="parameters__value">
+                            пластик Феникс<br>
+                            прямолинейная<br>
+                            керамическая плитка<br>
+                            постформинг Egger<br>
+                            2200 x 2300 мм
+                        </div>
+                    </div>
+                    <div class="carousel__info">
+                        <div class="country carousel__infoItem">
+                            <img src="images/maps-and-flags.png" alt="map icon">
+                            <span>Москва</span>
+                        </div>
+                        <div class="year carousel__infoItem">
+                            <img src="images/hourglass.png" alt="clock icon">
+                            <span>2018 г.</span>
+                        </div>
+                        <div class="price carousel__infoItem">
+                            <img src="images/ruble.png" alt="ruble icon">
+                            <span>239 000 руб.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="experience">
+                <div class="experience__item">
+                    <div class="experience__number">
+                        <img src="images/n11.png" alt="number">
+                    </div>
+                    <div class="experience__itemText">
+                        Столько <b>лет</b> наша компания
+                        находится на рынке
+                    </div>
+                </div>
+                <div class="experience__item">
+                    <div class="experience__number">
+                        <img src="images/n425.png" alt="number">
+                    </div>
+                    <div class="experience__itemText">
+                        Такое число <b>уникальных кухонь</b>
+                        мы создали за это время
+                    </div>
+                </div>
+                <div class="experience__item">
+                    <div class="experience__number">
+                        <img src="images/n34.png" alt="number">
+                    </div>
+                    <div class="experience__itemText">
+                        Столько <b>сотрудников</b> трудятся
+                        для наших клиентов ежедневно
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="newKitchen">
+        <div class="container">
+            <div class="title">
+                <div class="segment"></div>
+                <h1><span>Новая кухня с нами — </span>это удобно!</h1>
+            </div>
+            <div class="advantages">
+                <div class="advantages__description">
+                    <div class="advantages__item wow animate__bounceInUp">
+                        <div class="block">
+                            <div class="point"></div>
+                            <h2>Дизайн-проект у вас дома</h2>
+                        </div>
+                        <p>Не нужно выкраивать время на поездки по
+                            салонам. Дизайнер приедет к Вам домой,
+                            привезет образцы материалов, снимет
+                            замеры и вместе с Вами разработает проект.
+                        </p>
+                    </div>
+                    <div class="advantages__item wow animate__bounceInUp">
+                        <div class="block">
+                            <div class="point"></div>
+                            <h2>Удаленный расчет</h2>
+                        </div>
+                        <p>Мы уточним ваши пожелания по телефону и
+                            разработаем дизайн-проект удаленно. После этого
+                            останется лишь снять точные замеры.
+                        </p>
+                    </div>
+                    <div class="advantages__item wow animate__bounceInUp">
+                        <div class="block">
+                            <div class="point"></div>
+                            <h2>Неограниченные изменения</h2>
+                        </div>
+                        <p>Мы бесплатно вносим в дизайн-проект столько
+                            изменений, сколько потребуется для вашей
+                            идеальной кухни.
+                        </p>
+                    </div>
+                </div>
+                <div class="advantages__image wow animate__bounceInUp">
+                    <img src="images/bc10fd03846d23f3838b2cbc18ff775c.png" alt="kitchen">
+                </div>
+            </div>
+            <div class="guaranteeBanner wow animate__bounceIn">
+                <div class="guaranteeBanner__sticker">
+                    <div class="guaranteeBanner__stickerInner">
+                        <div class="row1">
+                            <div class="row1__number">25</div>
+                            <div class="row1__text">лет</div>
+                        </div>
+                        <div class="row2">гарантия</div>
+                    </div>
+                </div>
+                <div class="guaranteeBanner__text">
+                    <div class="row1 guaranteeBanner__row1">
+                        <div class="row1__image">
+                            <img src="images/noun_Quote_453953.png" alt="Quote">
+                        </div>
+                        <div class="row1__p">Мы даем самую большую гарантию на наши кухни,
+                            потому что мы производим их сами на своей собственной
+                            фабрике и мы твердо уверены в их качестве.
+                        </div>
+                    </div>
+                    <div class="row1 guaranteeBanner__row2">
+                        <p>Основатель фабрики «Shef»,
+                            Андрей Демидченко
+                        </p>
+                        <div class="row1__image">
+                            <img src="images/sign.png" alt="sign">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <div class="title">
+                <div class="segment"></div>
+                <h1>Узнайте, что <span>наши клиенты говорят о нас</span></h1>
+            </div>
+            <p class="examples-p">
+                Лучше всего о нашей работе могут рассказать видеоотзывы наших довольных клиентов!
+            </p>
+            <div class="gallery">
+                <div class="gallery__item wow animate__bounceIn">
+                    <iframe src="https://www.youtube.com/embed/W4hoc24K93E"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    <h3>Видеоотзыв о проекте №208</h3>
+                </div>
+                <div class="gallery__item  wow animate__bounceIn">
+                    <iframe src="https://www.youtube.com/embed/W4hoc24K93E"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    <h3>Видеоотзыв о проекте №421</h3>
+                </div>
+                <div class="gallery__item wow animate__bounceIn">
+                    <iframe src="https://www.youtube.com/embed/W4hoc24K93E"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    <h3>Видеоотзыв о проекте №137</h3>
+                </div>
+                <div class="gallery__item wow animate__bounceIn">
+                    <iframe src="https://www.youtube.com/embed/W4hoc24K93E"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    <h3>Видеоотзыв о проекте №158</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="measurer">
+        <div class="container wow animate__bounceIn">
+            <div class="title">
+                <div class="segment"></div>
+                <h1><span>Вызовите замерщика </span>на дом бесплатно!</h1>
+            </div>
+            <p class="examples-p">
+                Мы приедем к вам домой, привезем образцы материалов, снимем замеры
+                и вместе с Вами разработаем дизайн-проект вашей кухни.
+            </p>
+            <form action="" class="form" id="form1">
+                <h2>Заполните форму,<br>
+                    и мы свяжемся с Вами в ближайшее время</h2>
+                <div class="inputs">
+                    <div class="inputCell">
+                        <input type="text" id="name" placeholder="Ваше имя">
+                        <h4 class="error-input">Необходимо ввести Ваше имя</h4>
+                    </div>
+                    <div class="inputCell">
+                        <input type="text" id="phone" placeholder="+7 (___) ___ - __ - __">
+                        <h4 class="error-input">Необходимо ввести номер телефона</h4>
+                    </div>
+                    <div class="inputCell">
+                        <input type="text" id="time" placeholder="Желаемая дата и время">
+                        <h4 class="error-input">Необходимо ввести желаемые дату и время</h4>
+                    </div>
+                    <button type="button" class="subbutton" id="orderButton">Вызвать замерщика</button>
+                </div>
+            </form>
+            <div class="successOrder" id="successOrder1">Спасибо за Ваш заказ!<br> Мы скоро свяжемся с Вами!</div>
+            <!--            <img src="images/bg-man.png" alt="man">-->
+        </div>
+    </section>
+    <div class="divider d2"></div>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container wow animate__bounceIn">
+            <div class="footer__links">
+                <div class="logo footer__logo"><img class="logo__img" src="images/logo.png" alt="logo"></div>
+                <div class="socials footer__socials">
+                    <a href="#"><img src="images/facebook.png" alt="facebook"></a>
+                    <a href="#"><img src="images/instagram.png" alt="instagram"></a>
+                    <a href="#"><img src="images/vk.png" alt="vk"></a>
+                </div>
+            </div>
+            <div class="footer__infoItem">
+                <h2>Наш офис находится по адресу:</h2>
+                <p>г. Москва, ул. Фруктовая, 11 (строение 1)</p>
+            </div>
+            <div class="footer__infoItem">
+                <h2>Мы работаем:</h2>
+                <p>Ежедневно, с 9:00 до 20:00</p>
+            </div>
+            <div class="footer__infoItem">
+                <div class="phone">
+                    <svg fill="#ffffff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" width="21px" height="21px"
+                         viewBox="0 0 891.024 891.024" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier"> <g> <path
+                                d="M2.8,180.875c46.6,134,144.7,286.2,282.9,424.399c138.2,138.2,290.4,236.301,424.4,282.9c18.2,6.3,38.3,1.8,52-11.8 l92.7-92.7l21.6-21.6c19.5-19.5,19.5-51.2,0-70.7l-143.5-143.4c-19.5-19.5-51.2-19.5-70.7,0l-38.899,38.9 c-20.2,20.2-52.4,22.2-75,4.6c-44.7-34.8-89-73.899-131.9-116.8c-42.9-42.9-82-87.2-116.8-131.9c-17.601-22.6-15.601-54.7,4.6-75 l38.9-38.9c19.5-19.5,19.5-51.2,0-70.7l-143.5-143.5c-19.5-19.5-51.2-19.5-70.7,0l-21.6,21.6l-92.7,92.7 C1,142.575-3.5,162.675,2.8,180.875z"></path> </g> </g>
+                        </svg>
+                    <a href="tel:+79258777765">+7 (925) 877 77 65</a>
+                </div>
+                <div class="mail">
+                    <svg height="19px" width="28px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve"
+                         fill="#ffffff" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0 {
+                            fill: #ffffff;
+                        } </style>
+                            <g> <polygon class="st0" points="512,386.058 512,147.816 375.36,266.942 "></polygon>
+                                <path class="st0"
+                                      d="M432.466,0H79.534C35.612,0,0,35.611,0,79.534v2.33l227.884,198.67c8.117,7.048,18.04,10.524,28.116,10.534 c10.078-0.01,20.02-3.486,28.117-10.534L512,81.864v-2.33C512,35.611,476.389,0,432.466,0z"></path>
+                                <path class="st0"
+                                      d="M316.777,318.01c-17.359,15.155-39.146,22.786-60.777,22.768c-21.63,0.019-43.398-7.621-60.776-22.768 l-20.757-18.097L2.059,450.214C10.137,485.583,41.728,512,79.534,512h352.932c37.826,0,69.398-26.417,77.476-61.786 L337.534,299.913L316.777,318.01z"></path>
+                                <polygon class="st0" points="0,147.816 0,386.058 136.642,266.932 "></polygon> </g> </g>
+                        </svg>
+                    <a href="mailto: shef@gmail.com">shef@gmail.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__divider"></div>
+        <div class="rights">Все права защищены, 2019</div>
+    </div>
+</footer>
+<div id="popup" class="popup">
+    <form action="" class="form popup__form" id="form2">
+        <div class="exit">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
+                 <g>
+                    <g>
+                                <path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+                                c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+                                c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+                                L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+                                c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+                                c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+                                c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+                    </g>
+                 </g>
+            </svg>
+        </div>
+        <h2>Заказать звонок</h2>
+        <p>Оставьте заявку и наш менеджер свяжется с Вами в течение 10 минут.</p>
+        <div class="popup__info">
+            <div class="popup__image"><img src="images/popup-image.png" alt="pone"></div>
+            <div class="inputs popup__inputs">
+                <div class="inputCell">
+                    <input type="text" id="name2" placeholder="Ваше имя">
+                    <h4 class="error-input">Необходимо ввести Ваше имя</h4>
+                </div>
+                <div class="inputCell">
+                    <input type="text" id="phone2" placeholder="+7 (___) ___ - __ - __">
+                    <h4 class="error-input">Необходимо ввести номер телефона</h4>
+                </div>
+                <button type="button" class="subbutton" id="orderButton2">Вызвать замерщика</button>
+                <div class="data-processing-agreement">
+                    Нажимая на кнопку, Вы соглашаетесь
+                    с <a href="#">Персональной обработкой данных</a>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="successOrder" id="successOrder2">
+        <div class="exit">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
+                 <g>
+                    <g>
+                                <path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
+                                c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
+                                c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
+                                L191.828,246L7.872,429.952c-5.064,5.072-7.852,11.828-7.852,19.032c0,7.204,2.788,13.96,7.852,19.028l16.124,16.116
+                                c5.06,5.072,11.824,7.856,19.02,7.856c7.208,0,13.968-2.784,19.028-7.856l183.96-183.952l183.952,183.952
+                                c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
+                                c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
+                    </g>
+                 </g>
+            </svg>
+        </div>
+        Спасибо за Ваш заказ!<br> Мы скоро свяжемся с Вами!
+    </div>
+</div>
+<div class="loader">
+    <div class="lds-ring">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<script src="js/jquery-3.7.0.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
